@@ -8,7 +8,7 @@
     "jasmine": "jasmine",
     "test": "npm run build && npm run jasmine",
     "start": "nodemon src/index.ts",
-    "lint": "./node_modules/.bin/eslint \"**/*.{ts,tsx}\"",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" ",
     "prettier": "prettier --config .prettierrc.json \"src/**/*.{ts,tsx}\" --write"
   },
   "keywords": [
